@@ -1,5 +1,4 @@
 from a2p import *
-from lemminflect import getInflection, getAllInflections, getAllInflectionsOOV
 
 text3 = 'She gives a well deserved raise.'
 text = 'Everyone loves my cat Puck.'
@@ -30,6 +29,10 @@ sentX = 'A man shouts at a woman.'
 sentY = 'On the right side a car overtakes a slug.'
 sentZ = 'On the left side mom picks tomatoes from the garden.'
 sentA = 'A cat sits on a rug.'
+
+all_sentences = [text3, text, text2, sent, sent2, sent3, sent4, sent5, all_in, sent6, sent7, sent8, sent9, sent10,
+                 sent11, sent12, sent13, sent14, sent15, sent16, sent17, sent18, sent19, sent20, sentX, sentY, sentZ,
+                 sentA]
 
 print(act2pass(sentA))
 
